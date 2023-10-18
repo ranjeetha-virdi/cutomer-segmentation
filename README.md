@@ -99,7 +99,7 @@ kmeans.fit(X)
     
     
     
-####init: It is used to define the method of initialization of centroids. When random, it chooses random rows from data for initialization whereas k-means++ allows the algorithm to place initial centres smartly
+**init**: It is used to define the method of initialization of centroids. When random, it chooses random rows from data for initialization whereas k-means++ allows the algorithm to place initial centres smartly
 ####n_init: Allows the algorithm to initialize clusters the defined number of times and choose the most converging value as the best fit
 ####max_iter: It is the maximum number of iterations of the algorithm in a single run to converge, the default value is 300
 ####random_state: It guarantees the reproducibility of the model results
