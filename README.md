@@ -59,7 +59,7 @@ For customer segmentation of retail market, we use the dataset available at the 
 
 ### Data Cleaning 
 
-To get an overview of the dataset at hand, we have a helper function to summarize all these aspects of the data set like the unique categories,spread of numeric data to detect outliers, identify missing values etc.
+To get an overview of the dataset at hand, we have a helper function to summarize all these aspects of the dataset like the unique categories, spread of numeric data to detect outliers, identification of missing values etc.
 In the Instacart dataset, only one metric (‘days since prior order’) had missing values and upon further investigation, these values were only missing from the first order of customers and hence, this metric was replaced with 0
 The cleaning process include dropping columns like address, latitude and longitude. 
 
