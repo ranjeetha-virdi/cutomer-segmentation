@@ -30,7 +30,7 @@ Instacart is the North American leader in online grocery delivery. Instacart sho
    I. Design a Segmentation pipeline to carry out including Exploratory Data Analysis, Data Wrangling, Feature Engineering and Modeling.
    
    
-   II. Reducing the features with the help of PCA for customer segmentation.
+   II. Reducing the features with the help of PCA.
    
    
    The basic requirements to meet this aim we need to do the following steps: 
@@ -56,9 +56,7 @@ Instacart is the North American leader in online grocery delivery. Instacart sho
 ### Data Collection
 
 For customer segmentation of retail market, we use the dataset available at the dataset shared on Kaggle for Instacart Market Basket Analysis.
-This dataset was open-sourced by Instacart a few years ago.
-
-
+[This dataset was open-sourced by Instacart a few years ago.](https://www.kaggle.com/c/instacart-market-basket-analysis)
 
 
 The dataset has data points for apartment, homes and retail properties available for rent across all the states in US. The dataset 
