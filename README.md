@@ -66,10 +66,8 @@ allowed or not and has a fee or not.
 
 ### Data Cleaning 
 
-To get an overview of the dataset at hand, like examining the spread of the numerical data like price, square feet, bedrooms and bathrooms
-and examine the presence of null values, I have a helper function to summarize all these aspects of the data set we can easily have a 
-summarized overview of the distribution of our data set. Also we can see that there are many columns like amenities, pets allowed and 
-address with missing values. 
+To get an overview of the dataset at hand, we have a helper function to summarize all these aspects of the data set like the unique categories,spread of numeric data to detect outliers, identify missing values etc.
+In the Instacart dataset, only one metric (‘days since prior order’) had missing values and upon further investigation, these values were only missing from the first order of customers and hence, this metric was replaced with 0
 The cleaning process include dropping columns like address, latitude and longitude. 
 Convert the price feature for some properties were specified in terms of weekly basis to monthly basis. Formatting amenities columns to properly 
 encode ordinal values based on their importance. Example if an apartment is with acess to golf club and swimming pool then it will be evaluated to
