@@ -111,7 +111,7 @@ kmeans.fit(X)
 **n_clusters**:It refers to the number of clusters we want from the model, the algorithm will initialize those many centroids. To decide the ideal number of clusters, it is best to do statistical analysis as well as talk to domain experts to understand how many clusters they expect based on their expertise.
 #### Techniques to calculate the appropriate value of number of clusters:
 
-The most popular statistical method to determine the number of clusters is the Elbow Method. In this method, we plot the explained variation of the data across different number of clusters. As k increases, the squared distance between the centroid and data point decreases, and the trick is to pick n_clusters around the range where we start getting diminishing results on increasing k — this is called the Elbow of the curve.
+**Elbow Method**: In this method, we plot the explained variation of the data across different number of clusters. As k increases, the squared distance between the centroid and data point decreases, and the trick is to pick n_clusters around the range where we start getting diminishing results on increasing k — this is called the Elbow of the curve.
 ````
 cluster_range = range(2,16)
 sse = []
@@ -121,7 +121,9 @@ for k in cluster_range:
  sse.append(kmeans.inertia_)
 ````
 ![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/763a87d3-351e-4294-871b-4ece3bc2df92)
-Another method to find out the ideal number of clusters is Silhouette Method. It measures how much a data point is similar to its own cluster compared to another cluster and we can generate a plot summarizing how well each data point has been classified. 1 means clusters are clearly distinguished and 0 means they are not significantly different.
+
+
+**Silhouette Method**: It measures how much a data point is similar to its own cluster compared to another cluster and we can generate a plot summarizing how well each data point has been classified. 1 means clusters are clearly distinguished and 0 means they are not significantly different.
 
 ````
 silhouette_coefficients = []
