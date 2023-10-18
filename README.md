@@ -135,8 +135,10 @@ for k in cluster_range:
  silhouette_coefficients.append(score)    
 ````
 
+![Silhouette](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/d5607478-fdca-4c2f-b94e-8519b97a9b73)
 
 
 ### Hyperparameter tuning
 After tuning the hyperparameters and determining the value of ‘k’, it is recommended to run iterations with k, k+1, k-1 clusters to study the variation in the stories and usefulness of the output segments
 ### Final output: The clusters observed in the dataset.
+![final_cluster](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/dadfb4dd-5a93-4daf-ab79-2a857bd39165)
