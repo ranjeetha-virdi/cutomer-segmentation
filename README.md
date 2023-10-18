@@ -1,4 +1,9 @@
 # Cutomer-Segmentation: Understanding your Customers
+![Customer-Segmentation-Analysis-Mbaknol](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/cf2f006b-323c-4d31-9443-90c5da1141dc)
+
+
+
+
 Customer segmentation is an effective tool for businesses to closely align their strategy and tactics with, and better target, their current and future customers. 
 Every customer is different and every customer journey is different, so a single approach often isn’t going to work for all.
 
