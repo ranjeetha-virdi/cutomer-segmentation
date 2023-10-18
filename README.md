@@ -17,7 +17,7 @@ is typically used to inform a brand’s messaging and positioning, helps organis
 improve how the business sells. Because of this, marketing personas need to be closely aligned to those segments in order to be effective.
 
 The “target persona” (or “marketing persona”) is, by definition, a personification of a specific customer segment so it’s not uncommon for businesses to create several personas 
-to match the various customer segments they’ve created.But for that to happen, a business needs a robust set of customer segments to form a customer segmentation model. 
+to match the various customer segments they’ve created. But for that to happen, a business needs a robust set of customer segments to form a customer segmentation model. 
 
 ### Aim
 #### Group over 200,000 Instacart users based on their historic purchasing patterns. 
