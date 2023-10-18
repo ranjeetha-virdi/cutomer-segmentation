@@ -134,3 +134,7 @@ for k in cluster_range:
 ````
 
 ![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/763a87d3-351e-4294-871b-4ece3bc2df92)
+
+### Hyperparameter tuning
+After tuning the hyperparameters and determining the value of ‘k’, it is recommended to run iterations with k, k+1, k-1 clusters to study the variation in the stories and usefulness of the output segments
+### Final output: The clusters observed in the dataset.
