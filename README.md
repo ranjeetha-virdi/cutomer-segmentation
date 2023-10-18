@@ -1,7 +1,7 @@
 # Cutomer-Segmentation: Understanding your Customers
 
-    
-    ![Customer-Segmentation-Analysis-Mbaknol](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/cf2f006b-323c-4d31-9443-90c5da1141dc)
+  
+    ![Customer-Segmentation-Analysis-Mbaknol](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/f77d0d1d-    4bf7-449d-84c0-598d4dcbc3ea)
 
 
 
