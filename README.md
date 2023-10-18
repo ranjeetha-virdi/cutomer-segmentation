@@ -70,7 +70,7 @@ The primary aim at this stage was to understand how many orders were made by a s
 
 
 
-Furthermore one looked at what is the average/median cart size, what is the trend for ordering on different days of the week, what are the most ordered/reordered products? Which aisle/department gets the most reorders?
+Furthermore one looked at what is the average/median cart size, what is the trend for ordering on different days of the week, what are the most ordered/reordered products, and which aisle/department gets the most reorders?
 
 ![orders2](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/56445e43-d648-47d0-8653-06f8a943bd7a)
 
