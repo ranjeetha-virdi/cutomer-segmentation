@@ -74,6 +74,7 @@ What is the average/median cart size? What is the trend for ordering on differen
 
 ![orders2](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/56445e43-d648-47d0-8653-06f8a943bd7a)
 
+![items](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/01395756-ec01-4095-8177-f45b70c2a664)
 ### Feature Processing and Engineering
 Segmentation is done on multiple datasets to ensure different behaviours, preferences and attitudes of customers are getting captured. To reduce the complexity of the later steps it is best to create a master dataset, merging all the relevant data and rolling it up to the customer level.
 
