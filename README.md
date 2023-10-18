@@ -33,7 +33,7 @@ Instacart is the North American leader in online grocery delivery. Instacart sho
    II. Reducing the features with the help of PCA.
    
    
-   The basic requirements to meet this aim we need to do the following steps: 
+   To satisfy the basic requirements that meet this aim, we need to undertake the following steps: 
       
       1.	Data Collection
       
