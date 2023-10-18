@@ -44,14 +44,12 @@ Instacart is the North American leader in online grocery delivery. Instacart sho
       4.	Feature Preprocessing
       
       5.	Feature Engineering with PCA
-      
-      6.	Test Train Split
      
-      7.	Modeling, test the data using K-Means Algorithm
+      6.	Modeling, test the data using K-Means Algorithm
       
-      8.	Hyperparameter tuning
+      7.	Hyperparameter tuning
       
-      9.	Model Evaluation and find the best model 
+      8.	Model Evaluation and find the best model 
 
 ### Data Collection
 
@@ -75,3 +73,33 @@ Understanding orders were made by a single customer, number of products in a sin
 What is the average/median cart size? What is the trend for ordering on different days of the week? What are the most ordered/reordered products? Which aisle/department gets the most reorders?
 
 ![orders2](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/56445e43-d648-47d0-8653-06f8a943bd7a)
+
+### Feature Processing and Engineering
+Segmentation is done on multiple datasets to ensure different behaviours, preferences and attitudes of customers are getting captured. To reduce the complexity of the later steps it is best to create a master dataset, merging all the relevant data and rolling it up to the customer level.
+
+Along with merging datasets, Data Wrangling also includes converting all data into appropriate data types and standardising data to ensure consistency. Below is an illustration of how we can use simple pandas functions like concatenate and merge to create a master dataset for easy access for downstream uses.
+
+#### Steps for feature Engineering:
+    1. Numeric data needs to be binned for categorical models; categorical data needs to be one-hot encoded for numeric models.        Similarly, the other data types should be appropriately converted to suit the model. To ensure we are inputting good               distribution of data into the model, it is also necessary to transform data (log, polynomial, etc.) based on the need of the       hour.
+    2. Compressing the dimensionality of features to reduce the number of features, which can be overwhelming and might lead to        overfitting of the model. A very good method to reduce dimensionality and retain max information of the features by using PCA.
+###  Modeling, test the data using K-Means Algorithm:
+Clustering aims to group data points together based on their similarities. k-means is one of the simplest clustering algorithms. It initializes k number of centroids and assigns each data point to a centroid based on the smallest distance to each. This makes k number of clusters of data points. Once the cluster is identified, the centroids are readjusted to be at the centre of the cluster and the data points are reallocated based on these new centroids. This process keeps repeating until the algorithm converges i.e. it the centroid stops changing upon iterations or when the maximum limit for iterations is reached.
+
+Before we tune the model, let’s look at a simple k-means code below and understand the use of each hyperparameter.
+````
+kmeans_args = {
+"init": "random",
+"n_init": 10,
+"max_iter": 300,
+"random_state": 42,
+}
+kmeans = KMeans(n_clusters = 5, **kmeans_args)
+kmeans.fit(X)
+````
+    init parameter is used to define the method of initialization of centroids. When random, it chooses random rows from data for initialization whereas k-means++ allows the algorithm to place initial centres smartly
+    n_init will allow the algorithm to initialize clusters the defined number of times and choose the most converging value as the best fit
+    max_iter is the maximum number of iterations of the algorithm in a single run to converge, the default value is 300
+    random_state guarantees the reproducibility of the model results
+    n_clustersrefers to the number of clusters we want from the model, the algorithm will initialize those many centroids. To decide the ideal number of clusters, it is best to do statistical analysis as well as talk to domain experts to understand how many clusters they expect based on their expertise.
+    
+    
