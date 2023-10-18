@@ -72,5 +72,6 @@ Understanding orders were made by a single customer, number of products in a sin
 
 
 
-
 What is the average/median cart size? What is the trend for ordering on different days of the week? What are the most ordered/reordered products? Which aisle/department gets the most reorders?
+
+![orders2](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/56445e43-d648-47d0-8653-06f8a943bd7a)
