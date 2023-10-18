@@ -120,7 +120,7 @@ for k in cluster_range:
  kmeans.fit(X)
  sse.append(kmeans.inertia_)
 ````
-
+![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/763a87d3-351e-4294-871b-4ece3bc2df92)
 Another method to find out the ideal number of clusters is Silhouette Method. It measures how much a data point is similar to its own cluster compared to another cluster and we can generate a plot summarizing how well each data point has been classified. 1 means clusters are clearly distinguished and 0 means they are not significantly different.
 
 ````
@@ -133,7 +133,7 @@ for k in cluster_range:
  silhouette_coefficients.append(score)    
 ````
 
-![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/763a87d3-351e-4294-871b-4ece3bc2df92)
+
 
 ### Hyperparameter tuning
 After tuning the hyperparameters and determining the value of ‘k’, it is recommended to run iterations with k, k+1, k-1 clusters to study the variation in the stories and usefulness of the output segments
