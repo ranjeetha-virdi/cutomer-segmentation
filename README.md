@@ -64,7 +64,7 @@ In the Instacart dataset, only one metric (‘days since prior order’) had mis
 The cleaning process include dropping columns like address, latitude and longitude. 
 
 ### Exploratory Data Analysis
-Understanding orders were made by a single customer, number of products in a single order, how many days passed since last re-order?, which days have the most orders?: 
+The primary aim at this stage was to understand how orders were made by a single customer, number of products in a single order, how many days passed since last re-order, and on which days were most orders placed?: 
 
 ![orders1](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/798c231b-c717-4a78-9543-f9bb988164f7)
 
