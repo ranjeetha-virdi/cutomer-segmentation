@@ -20,6 +20,10 @@ The “target persona” (or “marketing persona”) is, by definition, a perso
 to match the various customer segments they’ve created.But for that to happen, a business needs a robust set of customer segments to form a customer segmentation model. 
 
 # Aim
+## Group over 200,000 Instacart users based on their historic purchasing patterns. 
+
+#### Who is Instacart?
+Instacart is the North American leader in online grocery delivery. Instacart shoppers offer same-day delivery and pickup services to bring fresh groceries and everyday essentials to busy people and families across the U.S. and Canada. Instacart’s delivery service is available to 85% of U.S. households and 70% of Canadian households.
 
 ## To achieve this, we will do the following:
 
