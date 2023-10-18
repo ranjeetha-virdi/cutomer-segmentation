@@ -132,4 +132,5 @@ for k in cluster_range:
  score = silhouette_score(X, kmeans.labels_)
  silhouette_coefficients.append(score)    
 ````
-![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/24cb23b4-a8ac-4a80-8d40-58195659f03c)
+
+![elbow](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/763a87d3-351e-4294-871b-4ece3bc2df92)
