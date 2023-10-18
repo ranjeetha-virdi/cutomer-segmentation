@@ -109,7 +109,7 @@ kmeans.fit(X)
 **random_state**: It guarantees the reproducibility of the model results
 
 **n_clusters**:It refers to the number of clusters we want from the model, the algorithm will initialize those many centroids. To decide the ideal number of clusters, it is best to do statistical analysis as well as talk to domain experts to understand how many clusters they expect based on their expertise.
-#### Techniques to calculate the appropriate value of number of clusters:
+#### Techniques to find the appropriate number of clusters:
 
 **Elbow Method**: In this method, we plot the explained variation of the data across different number of clusters. As k increases, the squared distance between the centroid and data point decreases, and the trick is to pick n_clusters around the range where we start getting diminishing results on increasing k — this is called the Elbow of the curve.
 ````
