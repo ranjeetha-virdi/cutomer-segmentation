@@ -108,5 +108,26 @@ kmeans.fit(X)
 **random_state**: It guarantees the reproducibility of the model results
 
 **n_clusters**:It refers to the number of clusters we want from the model, the algorithm will initialize those many centroids. To decide the ideal number of clusters, it is best to do statistical analysis as well as talk to domain experts to understand how many clusters they expect based on their expertise.
-    
-    
+#### Techniques to calculate the appropriate value of number of clusters:
+
+The most popular statistical method to determine the number of clusters is the Elbow Method. In this method, we plot the explained variation of the data across different number of clusters. As k increases, the squared distance between the centroid and data point decreases, and the trick is to pick n_clusters around the range where we start getting diminishing results on increasing k — this is called the Elbow of the curve.
+````
+cluster_range = range(2,16)
+sse = []
+for k in cluster_range:
+ kmeans = KMeans(n_clusters=k, **kmeans_args)
+ kmeans.fit(X)
+ sse.append(kmeans.inertia_)
+````
+
+Another method to find out the ideal number of clusters is Silhouette Method. It measures how much a data point is similar to its own cluster compared to another cluster and we can generate a plot summarizing how well each data point has been classified. 1 means clusters are clearly distinguished and 0 means they are not significantly different.
+
+````
+silhouette_coefficients = []
+cluster_range = range(3,10)
+for k in cluster_range:
+ kmeans = KMeans(n_clusters=k, **kmeans_args)
+ kmeans.fit(X)
+ score = silhouette_score(X, kmeans.labels_)
+ silhouette_coefficients.append(score)    
+````
