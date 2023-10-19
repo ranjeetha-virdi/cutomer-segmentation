@@ -135,7 +135,8 @@ for k in cluster_range:
  silhouette_coefficients.append(score)    
 ````
 
-![Silhouette](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/d5607478-fdca-4c2f-b94e-8519b97a9b73)
+![Silhouette](https://github.com/ranjeetha-virdi/cutomer-segmentation/assets/81987445/4fb0c45f-cbb9-4f4f-8857-5a03af147b10)
+
 
 
 ### Hyperparameter tuning
